@@ -1,0 +1,19 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+ 
+
+#app {
+    @apply h-full w-full contain-size;
+    > div,>div>div {
+        @apply h-full w-full contain-size; 
+    }
+}
+p {
+  margin-bottom: 0;
+}
+
+ 
